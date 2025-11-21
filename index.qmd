@@ -107,7 +107,7 @@ color_dreamy = '#4E79A7'  # Blue
 color_duck = '#E15759'    # Coral/red-orange
 
 # Create figure and axis
-fig, ax = plt.subplots(figsize=(10, 5))
+fig, ax = plt.subplots(figsize=(8, 4.5))
 
 # Separate data by doctor
 dreamy_data = patients_df[patients_df['doctor_name'] == 'Doc Dreamy']
@@ -268,7 +268,7 @@ color_dreamy = '#4E79A7'  # Blue
 color_duck = '#E15759'    # Coral/red-orange
 
 # Create figure and axis
-fig, ax = plt.subplots(figsize=(10, 5))
+fig, ax = plt.subplots(figsize=(8, 4.5))
 
 # Separate data by doctor
 dreamy_data = patients_randomized_df[patients_randomized_df['doctor_name'] == 'Doc Dreamy']
@@ -329,7 +329,7 @@ color_dreamy = '#4E79A7'  # Blue
 color_duck = '#E15759'    # Coral/red-orange
 
 # Create figure and axis
-fig, ax = plt.subplots(figsize=(10, 5))
+fig, ax = plt.subplots(figsize=(8, 4.5))
 
 # Add shaded region from -1 to 1 on x-axis (add first so it's behind everything)
 ax.axvspan(-1, 1, alpha=0.15, color='gray', zorder=0, label='Overlap Region (-1 to 1)')
